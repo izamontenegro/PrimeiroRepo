@@ -17,6 +17,7 @@ struct ContentView: View {
             Text("Meu primeiro commit")
             Text("DEVELOPER")
                 .foregroundStyle(.pink)
+                .font(.body)
         }
         .padding()
     }
